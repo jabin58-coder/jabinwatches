@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.signup{
+  background-color: rgb(53, 51, 153);
+  
+}
+.header{
+  border-radius: 20px;
+  border: solid;
+  border-color: rgb(20, 207, 220);
+  margin-bottom: 10px;
+  background-color: darkslategray;
+  
+
+}
+.product_img{
+  object-fit: contain;
+  width: 100%;
+  height: 200px;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.logo_img{
+  height: 40px;
+}
+.zoom-out img {
+  transition: transform 0.3s ease-in-out;
+}
+.whatsapp{
+  height: 40px;
+  width: 40px;
+}
+
+.aboutus{
+  border: 20px;
+  background-color: gold;
+  text-shadow: 10px;
+  color: black;
+  border-radius: 20px
+}  
+
+.search{
+  border-radius: 20px;
+
+}
+.marquee{
+  color: blue;
+}
